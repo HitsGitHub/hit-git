@@ -1,0 +1,142 @@
+[
+  {
+    "countries": [
+      {
+        "id": 0,
+        "name": "India"
+      },
+      {
+        "id": 1,
+        "name": "USA"
+      },
+      {
+        "id": 2,
+        "name": "Australia"
+      }
+    ],
+    "states": [
+      {
+        "id": 0,
+        "country_id": 0,
+        "name": "Andhra Pradesh"
+      },
+      {
+        "id": 1,
+        "country_id": 0,
+        "name": "Madhya Pradesh"
+      },
+      {
+        "id": 2,
+        "country_id": 1,
+        "name": "San Francisco"
+      },
+      {
+        "id": 3,
+        "country_id": 1,
+        "name": "Los Angeles"
+      },
+      {
+        "id": 4,
+        "country_id": 2,
+        "name": "New South Wales"
+      },
+      {
+        "id": 5,
+        "country_id": 2,
+        "name": "Victoria"
+      }
+    ],
+    "cities": [
+      {
+        "id": 0,
+        "state_id": 0,
+        "name": "Guntur"
+      },
+      {
+        "id": 1,
+        "state_id": 0,
+        "name": "Vijayawada"
+      },
+      {
+        "id": 2,
+        "state_id": 0,
+        "name": "Tirupati"
+      },
+      {
+        "id": 3,
+        "state_id": 0,
+        "name": "Visakhapatnam"
+      },
+      {
+        "id": 4,
+        "state_id": 1,
+        "name": "Bhopal"
+      },
+      {
+        "id": 5,
+        "state_id": 1,
+        "name": "ujjain"
+      },
+      {
+        "id": 6,
+        "state_id": 1,
+        "name": "Indore"
+      },
+      {
+        "id": 7,
+        "state_id": 1,
+        "name": "Rewa"
+      },
+      {
+        "id": 8,
+        "state_id": 2,
+        "name": "SOMA"
+      },
+      {
+        "id": 9,
+        "state_id": 2,
+        "name": "Richmond"
+      },
+      {
+        "id": 10,
+        "state_id": 2,
+        "name": "Sunset"
+      },
+      {
+        "id": 11,
+        "state_id": 3,
+        "name": "Burbank"
+      },
+      {
+        "id": 12,
+        "state_id": 3,
+        "name": "Hollywood"
+      },
+      {
+        "id": 13,
+        "state_id": 4,
+        "name": "Brisbane"
+      },
+      {
+        "id": 14,
+        "state_id": 4,
+        "name": "Perth"
+      },
+      {
+        "id": 15,
+        "state_id": 4,
+        "name": "Sydney"
+      },
+      {
+        "id": 16,
+        "state_id": 5,
+        "name": "Hobart"
+      },
+      {
+        "id": 17,
+        "state_id": 5,
+        "name": "Melbourne"
+      }
+    ]
+  }
+]

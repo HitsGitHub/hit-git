@@ -1,0 +1,123 @@
+[
+    {
+      "countryName": "India",
+      "cities": [
+        {
+          "id": 0,
+          "name": "Gujarat",
+          "countryName": "India",
+          "values": [
+            {
+              "name": "Ahmedabad"
+            },
+            {
+              "name": "Rajkot"
+            }
+           
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Madhyapradesh",
+          "countryName": "India",
+          "values": [
+            {
+              "name": "Indore"
+            },
+            {
+              "name": "Ujjain"
+            }
+          
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Rajasthan",
+          "countryName": "India",
+          "values": [
+            {
+              "name": "Udaipur"
+            },{
+              "name": "Jaipur"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Andhra Pradesh",
+          "countryName": "India",
+          "values": [
+            {
+              "name": "Vijayawada"
+            },
+            {
+              "name": "Tirupati"
+            }
+           
+          ]
+        }
+      ]
+    },
+    {
+      "countryName": "USA",
+      "cities": [
+        {
+          "id": 4,
+          "name": "San Francisco",
+          "countryName": "USA",
+          "values": [
+            {
+              "name": "New York"
+            },
+            {
+              "name": "Richmond"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Los Angeles",
+          "countryName": "USA",
+          "values": [
+            {
+              "name": "Burbank"
+            },
+            {
+              "name": "Hollywood"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "countryName": "Australia",
+      "cities": [
+        {
+          "id": 6,
+          "name": "New South Wales",
+          "countryName": "Australia",
+          "values": [
+          
+            {
+              "name": "Sydney"
+            },{
+              "name":"Perth"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Victoria",
+          "countryName": "Australia",
+          "values": [
+            {
+              "name": "Hobart"
+            },
+            {
+              "name": "Melbourne"
+            }
+          ]
+        }
+      ]
+    }
+  ]

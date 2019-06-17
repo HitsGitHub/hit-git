@@ -1,0 +1,46 @@
+  <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+    <div class="container">
+      <div class="card text-center">
+        <div class="card-header">
+          <h3> Cascading Dropdown</h3>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="form-group col col-6">
+              <ng-multiselect-dropdown name="country" [(ngModel)]="countryModel" [placeholder]="'Select Country'"
+                [data]="countries" formControlName="country" [settings]="dropdownSettings1"
+                (onSelect)="onSelectCountry($event)" (onDeSelect)="deselectCountry($event)">
+              </ng-multiselect-dropdown>
+            </div>
+            <div class=" formGroup col col-6">
+              <ng-multiselect-dropdown name="state" [(ngModel)]="cityModel" [placeholder]="'Select State'"
+                [data]="filteredStates" formControlName="state" [settings]="dropdownSettings"
+                (onSelect)="onStateSelect($event)" (onDeSelect)="onStateDeSelect($event)" 
+                >
+              </ng-multiselect-dropdown>
+            </div>
+          </div>
+
+        </div>
+        <div class="card-footer">
+          <div class="form-group" align="center">
+            <div class="col-sm-8">
+              <button class="btn btn-default btn-md my-1" [disabled]="!myForm.valid">Submit</button>
+            </div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="city" class="col-sm-2 col-form-label"></label>
+          <div class="col-sm-8">
+            <div align="left">
+              <div formArrayName="chkbox" *ngFor="let city of filteredCity; let i = index">
+                <input type="checkbox" [checked]="false" [formControlName]="i">
+                {{ city.name  }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  <router-outlet></router-outlet>
